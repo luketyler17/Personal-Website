@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Elsie-Regular
+font link: https://fonts.google.com/specimen/Elsie
+font author: Alejandro Inler
+font author site: https://www.behance.net/inler
+
+
+icon designer: win cahyono
+icon designer link: /papatlimo
+        
+{"bg-gradient-0":"#E90DCA","bg-gradient-1":"#1536F1","icon":"#ffffff","font":"#ffffff","slogan":"#ffffff"}
+      

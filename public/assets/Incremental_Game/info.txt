@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: vremenagroteskbookitalic
+font link: https://www.fontspring.com/fonts/abstrkt/vremena?utm_source=fontsquirrel.com&utm_medium=download_link&utm_campaign=vremena-grotesk#firstfreeproduct
+font author: ABSTRKT
+font author site: 
+
+
+icon designer: Erin Standley
+icon designer link: /tinyxl
+        
+
+fontColor: {"hex":"#41E296"}
+bgColor: {"hex":"#FFFFFF"}
+iconColor: {"hex":"#41E296"}
+
+      

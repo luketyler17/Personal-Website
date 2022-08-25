@@ -3,7 +3,6 @@ import NavBar from "./NavBar"
 import styled from "styled-components"
 import HeadShot from "./HeadShot"
 const BigWrap = styled.div`
-
 `
 
 const SplashPage = () => {
@@ -12,7 +11,6 @@ const SplashPage = () => {
         <BigWrap>
             <NavBar/>
             <HeadShot />
-            
         </BigWrap>
     )
 }

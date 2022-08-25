@@ -44,7 +44,8 @@ padding-top: 25px;
 }
 `
 
-const NavBar = () => {
+
+const CalNavBar = () => {
     const navigate = useNavigate()
     return(
         <NavWrap>
@@ -52,10 +53,25 @@ const NavBar = () => {
             </LogoWrap>
             <ListWrap>
                 <InnerList onClick={() => navigate("/")}>
-                    Home
+                    GO TO LEFT - Main LOGO
+                </InnerList>
+                <InnerList onClick={() => navigate("/")}>
+                    Name of the Calendar
+                </InnerList>
+                <InnerList onClick={() => navigate("/")}>
+                    USERNAME
                 </InnerList>
                 <InnerList onClick={() => navigate("/contact")}>
-                    Contact Me
+                    SETTING BUTTON
+                </InnerList>
+                <InnerList onClick={() => navigate("/projects")}>
+                    SEARCH?
+                </InnerList>
+                <InnerList onClick={() => navigate("/projects")}>
+                    HAMBURGER MENU
+                </InnerList>
+                <InnerList onClick={() => navigate("/projects")}>
+                    Projects
                 </InnerList>
                 <InnerList onClick={() => navigate("/projects")}>
                     Projects
@@ -65,4 +81,5 @@ const NavBar = () => {
     )
 }
 
-export default NavBar
+
+export default CalNavBar

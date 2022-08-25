@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: sen-bold
+font link: http://www.philatype.com/#sen
+font author: Philatype
+font author site: http://www.philatype.com/
+
+
+icon designer: DinosoftLab
+icon designer link: /dinosoftlab
+        
+{"bg":"#450A33","icon":"#E8185E","font":"#FFFFFF","slogan":"#ffffff"}
+      

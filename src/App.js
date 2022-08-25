@@ -2,27 +2,29 @@ import './App.css';
 import styled from 'styled-components';
 import React, {useState, useEffect} from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import SplashPage from './components/SplashPage';
+import SplashPage from './components/SplashPage.jsx';
+import Projects from './components/Projects.jsx';
+import Contacts from './components/contacts';
+import CalendarSplash from './AppFiles/Calendar_App_JS/calendarSplash.js'
+import ATCSplash from './AppFiles/Air_Traffic_Controler/ATC';
+import IncrementalGame from './AppFiles/Incremental_Game/IncrementalGame';
+import EcommerceSplash from './AppFiles/Ecommerce_App/EcommerceApp';
 
-const MainWrapper = styled.div`
-position: absolute;
-top: 0;
-background-color: #fcf8e8;
-background-image: linear-gradient(120deg, #fcf8e8 8%, #ecb390 67%);
-height: 100%;
-width: 100%;
-height: 100%;
-margin: 0px;
-`
 
 function App() {
 
   return (
-    <MainWrapper>
+    <div className='AllRouterWrapper'>
       <Routes>
         <Route path='/' element={<SplashPage />}></Route>
+        <Route path='/projects' element={<Projects />}></Route>
+        <Route path='/contact' element={<Contacts />}></Route>
+        <Route path='/calendar_app/' element={<CalendarSplash />}></Route>
+        <Route path='/incremental_game/' element={<IncrementalGame />}></Route>
+        <Route path='/ecommerce_app/' element={<EcommerceSplash />}></Route>
+        <Route path='/air_traffic_control/' element={<ATCSplash />}></Route>
       </Routes>
-    </MainWrapper>
+    </div>
   );
 }
 

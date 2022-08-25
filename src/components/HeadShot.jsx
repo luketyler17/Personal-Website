@@ -2,7 +2,7 @@ import React from "react";
 import styled from 'styled-components';
 
 const DivWrapper = styled.div`
-    height: 100%;;
+    height: 100%;
     align-items: center;
     justify-content: center;
     align-items: center;

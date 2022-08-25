@@ -1,0 +1,41 @@
+.NavWrap {
+border: 1px solid black;
+height: 67px;
+width: 100%;
+margin: 0 auto;
+background-color: #000000;
+position: fixed;
+overflow: hidden;
+top: 0;
+left: 0;
+}
+
+.ListWrap {
+width: 20%;
+height: 100%;
+margin: 0 auto;
+right:0;
+text-align: center;
+align-items: center;
+justify-content: center;
+padding: 0;
+}
+
+
+
+.InnerList {
+display: inline-block;
+height: 100%;
+color: rgba(255,255,255,1);
+margin-right: auto;
+margin-left: auto;
+list-style-type: none;
+width: 100px;;
+text-align: center;
+padding-top: 25px;
+}
+.InnerList:hover {
+    background-color: grey;
+    border-radius: 10%;
+    cursor: pointer;
+}
