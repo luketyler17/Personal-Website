@@ -1,13 +1,13 @@
 import React from "react";
 import styled from 'styled-components';
 import { useNavigate } from "react-router-dom";
-
+import Logo from '../Calendar_App_JS/default-monochrome-white.svg'
 const NavWrap = styled.div`
-border: 1px solid black;
-height: 67px;
+border: .5px solid grey;
+height: 50px;
 width: 100%;
 margin: 0 auto;
-background-color: #000000;
+background-color: #FFFFFF;
 position: fixed;
 overflow: hidden;
 top: 0;
@@ -30,16 +30,13 @@ padding: 0;
 const InnerList = styled.li`
 display: inline-block;
 height: 100%;
-color: rgba(255,255,255,1);
+color: black;
 margin-right: auto;
 margin-left: auto;
 list-style-type: none;
 width: 100px;;
 text-align: center;
-padding-top: 25px;
 &:hover {
-    background-color: grey;
-    border-radius: 10%;
     cursor: pointer;
 }
 `
@@ -50,6 +47,7 @@ const CalNavBar = () => {
     return(
         <NavWrap>
             <LogoWrap>
+                <img src='../default-monochrome-white.svg' alt="company logo" />
             </LogoWrap>
             <ListWrap>
                 <InnerList onClick={() => navigate("/")}>

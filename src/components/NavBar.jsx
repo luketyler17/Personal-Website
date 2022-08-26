@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const NavWrap = styled.div`
 border: 1px solid black;
-height: 67px;
+height: 50px;
 width: 100%;
 margin: 0 auto;
 background-color: #000000;
